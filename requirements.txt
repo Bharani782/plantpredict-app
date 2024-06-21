@@ -2,5 +2,5 @@ streamlit
 googletrans==4.0.0-rc1
 streamlit_option_menu
 pandas
-tensorflow
+tensorflow==2.7.0
 numpy
