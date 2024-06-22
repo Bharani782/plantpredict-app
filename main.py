@@ -12,6 +12,7 @@ except Exception as e:
     print(f"Error initializing Translator: {e}")
     # Handle the error gracefully (e.g., log the error, display a user-friendly message)
 from streamlit_option_menu import option_menu
+from tensorflow import keras
 from tensorflow.keras.models import load_model
 from tensorflow.keras.layers import BatchNormalization
 
