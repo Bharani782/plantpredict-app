@@ -21,7 +21,7 @@ custom_objects = {
 }
 
 # File path to your saved Keras model
-model_path = "C:\\Users\\HP\\OneDrive\\Documents\\Medicinal-Leaf-Classification-main\\artifacts\\updatednewmodel.h5"
+model_path = "C:\\Users\\HP\\OneDrive\\Documents\\Medicinal-Leaf-Classification-main\\artifacts"
 
 # Load the Keras model with custom objects
 try:
@@ -33,7 +33,7 @@ except Exception as e:
     st.write(f"Unexpected error loading Keras model: {e}")
 
 # File path to your NumPy array
-class_dict_path = "C:\\Users\\HP\\OneDrive\\Documents\\Medicinal-Leaf-Classification-main\\artifacts\\updatedclassnames.npy"
+class_dict_path = "C:\\Users\\HP\\OneDrive\\Documents\\Medicinal-Leaf-Classification-main\\artifacts"
 
 # Load the NumPy array
 try:
