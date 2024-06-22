@@ -1,6 +1,8 @@
+
 tensorflow
 streamlit
 numpy
 pillow
 streamlit-option-menu
 keras==3.3.3
+googletrans
